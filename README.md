@@ -19,6 +19,8 @@
 
 ### DOTweenPro 1.0.381
 
+### Mobile Controller System 2.1
+
 
 
 ### 关于字体的说明
