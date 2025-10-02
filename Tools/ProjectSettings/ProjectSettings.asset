@@ -876,23 +876,24 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;ODIN_VALIDATOR_3_2;ODIN_VALIDATOR_3_3;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;ODIN_INSPECTOR_3_2;ODIN_INSPECTOR_3_3;TextMeshPro;DOTWEEN
-    EmbeddedLinux: TextMeshPro;DOTWEEN
+    Android: ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;ODIN_VALIDATOR_3_2;ODIN_VALIDATOR_3_3;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;ODIN_INSPECTOR_3_2;ODIN_INSPECTOR_3_3;TextMeshPro;DOTWEEN;UNITY_VISUAL_SCRIPTING;ES3_TMPRO;ES3_UGUI
+    EmbeddedLinux: TextMeshPro;DOTWEEN;UNITY_VISUAL_SCRIPTING;ES3_TMPRO;ES3_UGUI
     GameCoreScarlett: DOTWEEN
     GameCoreXboxOne: TextMeshPro;DOTWEEN
-    LinuxHeadlessSimulation: DOTWEEN
-    Nintendo Switch: TextMeshPro;DOTWEEN
-    PS4: TextMeshPro;DOTWEEN
+    LinuxHeadlessSimulation: DOTWEEN;UNITY_VISUAL_SCRIPTING;ES3_TMPRO;ES3_UGUI
+    Nintendo Switch: TextMeshPro;DOTWEEN;UNITY_VISUAL_SCRIPTING;ES3_TMPRO;ES3_UGUI
+    PS4: TextMeshPro;DOTWEEN;UNITY_VISUAL_SCRIPTING;ES3_TMPRO;ES3_UGUI
     PS5: TextMeshPro;DOTWEEN
-    QNX: TextMeshPro;DOTWEEN
+    QNX: TextMeshPro;DOTWEEN;UNITY_VISUAL_SCRIPTING;ES3_TMPRO;ES3_UGUI
+    Server: UNITY_VISUAL_SCRIPTING;ES3_TMPRO;ES3_UGUI
     Stadia: TextMeshPro;DOTWEEN
-    Standalone: TextMeshPro;DOTWEEN
-    VisionOS: TextMeshPro;DOTWEEN
-    WebGL: TextMeshPro;DOTWEEN
-    Windows Store Apps: DOTWEEN
-    XboxOne: TextMeshPro;DOTWEEN
-    iPhone: TextMeshPro;DOTWEEN
-    tvOS: TextMeshPro;DOTWEEN
+    Standalone: TextMeshPro;DOTWEEN;UNITY_VISUAL_SCRIPTING;ES3_TMPRO;ES3_UGUI
+    VisionOS: TextMeshPro;DOTWEEN;UNITY_VISUAL_SCRIPTING;ES3_TMPRO;ES3_UGUI
+    WebGL: TextMeshPro;DOTWEEN;UNITY_VISUAL_SCRIPTING;ES3_TMPRO;ES3_UGUI
+    Windows Store Apps: DOTWEEN;UNITY_VISUAL_SCRIPTING;ES3_TMPRO;ES3_UGUI
+    XboxOne: TextMeshPro;DOTWEEN;UNITY_VISUAL_SCRIPTING;ES3_TMPRO;ES3_UGUI
+    iPhone: TextMeshPro;DOTWEEN;UNITY_VISUAL_SCRIPTING;ES3_TMPRO;ES3_UGUI
+    tvOS: TextMeshPro;DOTWEEN;UNITY_VISUAL_SCRIPTING;ES3_TMPRO;ES3_UGUI
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -1011,4 +1012,4 @@ PlayerSettings:
   hmiLoadingImage: {fileID: 0}
   platformRequiresReadableAssets: 0
   virtualTexturingSupportEnabled: 0
-  insecureHttpOption: 0
+  insecureHttpOption: 1
