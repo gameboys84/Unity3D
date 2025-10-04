@@ -41,6 +41,7 @@ MonoBehaviour:
     - Febucci.TextAnimator.Demo.Runtime
     - Febucci.TextAnimator.Runtime
     - Febucci.TextAnimator.TMP.Runtime
+    - OPS.Obfuscator
     - OSA.Core
     - OSA.Demos
     - OSA.Utilities
